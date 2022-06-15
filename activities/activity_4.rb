@@ -22,4 +22,5 @@ def oneTimeArray(ages)
 
   return repeatedNum
 end
+
 p oneTimeArray([12,12,13,13,90,89,60,90])
