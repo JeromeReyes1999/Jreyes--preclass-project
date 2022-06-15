@@ -3,3 +3,8 @@
 #  Values will be your respective names.
 #  Write a function that takes a Hash and returns the full name.
 #  Print on console the result.
+
+def getFullName(name)
+  return name[:first_name]+" "+name[:middle_name]+" "+name[:last_name]
+end
+p getFullName({first_name:"Jerome", middle_name:"Villaruel", last_name:"Reyes"})
