@@ -7,5 +7,4 @@ def getName(my_age)
     end
   end
 end
-
 p getName(23)
