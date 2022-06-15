@@ -4,7 +4,7 @@
 #  Print on console the result.
 def oneTimeArray(ages)
 
-  repeatedNum=[]
+  nonRepeatedNum=[]
 
   ages.each_with_index do |current_age,current_index|
     flag=false
@@ -16,11 +16,11 @@ def oneTimeArray(ages)
       end
     end
     if flag==false
-      repeatedNum << current_age
+      nonRepeatedNum << current_age
     end
   end
 
-  return repeatedNum
+  return nonRepeatedNum
 end
 
 p oneTimeArray([12,12,13,13,90,89,60,90])
